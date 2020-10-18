@@ -1,0 +1,72 @@
+{
+    "curd": {
+        "find": {
+            "200": "Data fetched successfully !",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Resource Conflict",
+            "500": "Internal server error"
+        },
+        "save": {
+            "200": "Data saved successfully !",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Resource Conflict",
+            "500": "Internal server error"
+        },
+        "update": {
+            "200": "Data updated successfully !",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Resource Conflict",
+            "500": "Internal server error"
+        },
+        "delete": {
+            "200": "Data deleted successfully !",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Resource Conflict",
+            "500": "Internal server error"
+        }
+    },
+    "signup":{
+        "200": "Signup is done Successfull !",
+        "400": "Bad request",
+        "401": "Unauthorised",
+        "403": "Forbidden",
+        "404": "Either Username or Password is invalid",
+        "409": "Resource Conflict",
+        "500": "Internal server error"
+    },
+    "login": {
+        "200": "Login Successfull !",
+        "400": "Bad request",
+        "401": "Unauthorised",
+        "403": "Forbidden",
+        "404": "Either Username or Password is invalid",
+        "409": "Resource Conflict",
+        "500": "Internal server error"
+    },
+    "forgetPass": {
+        "200": "We've sent a password reset link to this Email ID",
+        "404": "Email ID is not registered",
+        "500": "Internal server error"
+    },
+    "password": {
+        "200": "Password set successfully !",
+        "400": "Bad request",
+        "401": "Unauthorised",
+        "403": "Forbidden",
+        "404": "Failed.",
+        "409": "Resource Conflict",
+        "500": "Internal server error"
+    }
+}
